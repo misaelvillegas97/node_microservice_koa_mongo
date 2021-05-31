@@ -1,0 +1,19 @@
+ports:
+  http: 8080
+
+auth:
+  jwt_secret: 'your-secret-whatever'
+
+mongo:
+  url: 'mongodb://clm_admin:clm_Gl2UsTdfmc@127.0.0.1:27017/clm'
+
+constant:
+  PAGINATOR_LIMIT_PAGE: 5
+  MOVIEAPI_URL: 'http://www.omdbapi.com/'
+  MOVIEAPI_KEY: '96a22be9'
+# none/debug/info
+loglevel: debug
+
+errors:
+  'unexpected error': 9001
+  'parameter error': 1001
